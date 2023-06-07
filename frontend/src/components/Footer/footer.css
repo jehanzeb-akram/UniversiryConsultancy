@@ -1,0 +1,129 @@
+.footer {
+  max-width: 100%;
+  background-color: #312259;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  margin-top: 30px;
+  
+}
+.footer-content {
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 20px;
+}
+
+.footer li {
+  list-style: none;
+}
+.social {
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+}
+.threecontents{
+  display: flex;
+}
+.pages ul {
+  margin-top: 5px;
+  margin-left: -40px;
+}
+.pages li {
+  margin-top: 8px;
+}
+.subscribe {
+  display: flex;
+  
+}
+.subscribe input {
+  /* position: absolute; */
+  left: 1020px;
+  height: 40px;
+  width: 200px;
+  margin-left: -20px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.subscribe button {
+  /* position: absolute; */
+  left: 1200px;
+  font-size: 14px;
+  height: 42px;
+  width: 123px;
+  border-radius: 20px;
+  border: none;
+
+  background-color: #66d1ff;
+  color: aliceblue;
+}
+@media only screen and (max-width: 375px) {
+  .footer-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .pages ul {
+    margin-left: 0;
+    font-size: 14px;
+  }
+  .footer-content h2{
+    font-size: 19px;
+  }
+  .footer-content p{
+    font-size: 12px;
+  }
+
+  .subscribe {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .subscribe input {
+    width: 250px;
+    margin-bottom: 10px;
+   
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+  }
+  .footer-content li{
+    margin-right: -10px;
+    margin-left: -35px;
+  }
+
+  .subscribe button {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .threecontents{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    
+  }
+  .footer-content:nth-child(0){
+    order: 1;
+  }
+  .footer-content:nth-child(2){
+    order: 2;
+  }
+  .footer-content:nth-child(3){
+    order: 3;
+  }
+  .footer-content:nth-child(4){
+    order: 4;
+  }
+  .footer-content:nth-child(5){
+    order: 5;
+  }
+
+
+}

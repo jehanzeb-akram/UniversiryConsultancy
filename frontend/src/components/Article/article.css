@@ -1,0 +1,50 @@
+.articleData {
+  margin-top: 60px;
+}
+
+.paraHeading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #141414;
+}
+
+.paraContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #787878;
+}
+
+.para {
+  margin-bottom: 30px;
+}
+
+.image {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+  .paraHeading {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .paraContent {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .image {
+    width: 320px;
+    height: 146px;
+    border-radius: 10px;
+  }
+}

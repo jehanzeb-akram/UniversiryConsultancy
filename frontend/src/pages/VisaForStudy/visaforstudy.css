@@ -1,0 +1,305 @@
+.visaForStudy {
+  max-width: 90%;
+  margin: auto;
+  text-decoration: none;
+  margin-top: 190px;
+}
+
+.headingSection {
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 31px;
+}
+
+.mainHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 130%;
+  color: #04060d;
+}
+
+.subHeading {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #04060d;
+}
+
+.mainSection-content-topHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #312259;
+}
+
+.mainSection-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #04060d;
+}
+
+.mainSection-content .desc {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #787878;
+}
+
+.studyVisaSection {
+  margin-top: 150px;
+  margin-bottom: 160px;
+}
+
+.studyVisaSection-btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.studyVisaSection-btnContainer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 20px;
+  width: 377px;
+  height: 100px;
+  background: #ffffff;
+  border: 1px solid #e2e1df;
+  border-radius: 20px;
+  color: #04060d;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.studyVisaSection-mainHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #04060d;
+}
+
+.studyVisaSection-subHeading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #787878;
+}
+
+.studyVisaSection-btnContainer-btn span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.studyVisaSection-btnContainer-btn:hover {
+  background-color: #312259;
+  color: white;
+}
+
+.studyForVisa-lastSection {
+  display: flex;
+  gap: 31px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.studyForVisa-lastSection-subHeading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #312259;
+}
+
+.studyForVisa-lastSection-mainHeading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #04060d;
+}
+
+.studyForVisa-lastSection-desc {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #787878;
+}
+
+.steps {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #787878;
+}
+
+.step i {
+  color: #312259;
+  font-weight: 700;
+}
+
+.applyOnline-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 174px;
+  height: 44px;
+  background: #312259;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.applyOnline-btn:hover {
+  background-color: white;
+  border: 1px solid #312259;
+  color: #312259;
+}
+
+@media only screen and (max-width: 375px) {
+  .mainHeading {
+    font-size: 25px;
+    line-height: 32.5px;
+    margin-top: 71px;
+  }
+
+  .subHeading {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .mainSection {
+    flex-direction: column-reverse;
+  }
+
+  .mainSection img {
+    width: 336px;
+    height: 225px;
+    overflow: hidden;
+  }
+
+  .mainSection-content h1 {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .mainSection-content-topHeading {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .mainSection-content .desc {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .studyVisaSection-mainHeading {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .studyVisaSection-subHeading {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .studyVisaSection-btnContainer-btn img {
+    height: 34.84px;
+    width: 34.84px;
+  }
+
+  .studyVisaSection-btnContainer-btn {
+    width: 164px;
+    height: 43.5px;
+    padding: 4px 13px 4px 13px;
+    border-radius: 5px;
+    gap: 8px;
+  }
+
+  .studyVisaSection-btnContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .studyVisaSection-btnContainer-btn {
+    box-sizing: border-box;
+  }
+
+  .studyVisaSection-btnContainer-btn span {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .studyForVisa-lastSection {
+    flex-direction: column;
+  }
+
+  .studyForVisa-lastSection-subHeading {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .studyForVisa-lastSection-mainHeading {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .studyForVisa-lastSection-desc {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .step {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .applyOnline-btn {
+    width: 130px;
+    height: 37px;
+    font-size: 9px;
+    line-height: 13.7px;
+    text-align: center;
+  }
+
+  .applyOnline-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lastSection-img img {
+    width: 336px;
+    height: 225px;
+  }
+}

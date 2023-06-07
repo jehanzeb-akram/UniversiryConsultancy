@@ -1,0 +1,147 @@
+.inbox{
+    display: flex;
+}
+.inboxside{
+    margin-left: 25px;
+    background-color: #312259;
+    width: 270px;
+}
+.inboxs{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 150px;
+    height: 13px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #ccc;
+}
+.ip{
+    margin-top: 35px;
+}
+.ip p{
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color:  #faf7f7;
+}
+
+.verticalline{
+    width: 210px;
+    background-color: black;
+}
+
+.inboxperson{
+    display: flex;
+    gap: 15px;
+    margin-left: 14px;
+    margin-top: 30px;
+}
+
+.inboxperson img{
+   height: 40px;
+}
+
+.inboxperson p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    color:  #faf7f7;
+    cursor: pointer;
+}
+
+.inboxchathead{
+    margin-left: 15px;
+}
+
+.inboxchathead img{
+    margin-top: 65px;
+    margin-left: 120px;
+}
+
+.lline{
+    width: 950px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.inboxchat{
+    background-color: #F2F3F5;
+}
+
+.topthings{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.cbtn{
+    margin-top: 15px;
+    margin-left: 700px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #312259;
+    color: #faf7f7;
+    cursor: pointer;
+}
+
+.cimg{
+    margin-left: 695px;
+    height: 45px;
+}
+
+.bimg{
+    height: 50px;
+}
+
+.topthings p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+   
+}
+
+.dimg{
+    height: 55px;
+}
+
+.tl{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color:  #312259;
+}
+
+.forcmt{
+    margin-top: 500px;
+    margin-left: 26px;
+    
+    
+}
+.comm{
+    width: 750px;
+    height: 13px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #ccc;
+    
+   
+   
+}
+
+.lbtn{
+    
+    margin-left: 8px;
+    width: 100px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #312259;
+    color: #faf7f7;
+    cursor: pointer;
+
+}

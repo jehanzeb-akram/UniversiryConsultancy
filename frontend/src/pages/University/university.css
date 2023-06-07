@@ -1,0 +1,563 @@
+.university-page {
+  max-width: 87%;
+  margin: auto;
+}
+
+.university-page-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #04060d;
+}
+
+.university-page-header {
+  margin-bottom: 42px;
+}
+
+.university-page-image-container {
+  background-image: url('../../assets/University/torontoUni.png');
+}
+
+.uni-logo {
+  width: 153px;
+  height: 153px;
+  background-color: #fff;
+  border: 3px solid #f6f6f6;
+  border-radius: 20px;
+  position: absolute;
+  left: 130px;
+  top: 370px;
+}
+
+.uni-logo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.uni-info {
+  width: 900px;
+  height: 153px;
+  background-color: white;
+  border: 3px solid #f6f6f6;
+  border-radius: 20px;
+  position: absolute;
+  top: 370px;
+  left: 325px;
+}
+
+.uni-info {
+  display: flex;
+  gap: 80px;
+}
+
+.uni-info-content {
+  margin-left: 30px;
+}
+
+.uni-info-content h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #04060d;
+
+  margin-top: 18px;
+}
+
+.uni-info-content-information {
+  display: flex;
+  gap: 30px;
+}
+
+.uni-info-content-information-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.upper {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 130%;
+  color: #787878;
+  margin: 0;
+}
+
+.lower {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  color: #04060d;
+  margin: 0;
+}
+
+.uni-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #312259;
+}
+
+.uni-info-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.uni-info-buttons-btn {
+  height: 44px;
+  width: 174px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+.website {
+  background-color: white;
+  color: #312259;
+  border: 1px solid #312259;
+}
+
+.apply {
+  background-color: #312259;
+  color: white;
+  border: 1px solid #312259;
+}
+
+.university-content {
+  margin-top: 200px;
+  border: 3px solid #f6f6f6;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.university-content-buttons-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.uni-content-button {
+  box-sizing: border-box;
+  height: 44px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.uni-content-button-active {
+  box-sizing: border-box;
+  height: 44px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #312259;
+  border: 1px solid #312259;
+  color: white;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.university-content-article {
+  padding: 20px;
+}
+
+.university-content-article-paragraph-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  padding: 10px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.university-content-article-paragraph-heading h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.university-content-article-paragraph-content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #787878;
+}
+
+.showMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #312259;
+}
+
+.faculty-main {
+  padding: 10px;
+}
+
+.faculty {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 25px;
+  height: 128px;
+  margin-bottom: 5px;
+}
+
+.faculty-content-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.faculty-content-subHeading {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.docs {
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.docs-heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #04060d;
+}
+
+.docs-grid-1,
+.docs-grid-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.alumni {
+  margin-top: 100px;
+}
+
+.alumni-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.alumni-flex h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #312259;
+  margin: 0;
+  text-align: center;
+}
+
+.alumni-flex p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #a9a9a9;
+  margin: 0;
+  text-align: center;
+}
+
+.location {
+  margin-top: 41px;
+  margin-bottom: 80px;
+}
+
+.comments {
+  margin-top: 100px;
+}
+
+.other-uni {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.other-uni-heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #04060d;
+}
+
+.other-uni-flex {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.other-uni-flex-items {
+  width: 370px;
+  height: 128px;
+  text-align: center;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.blue-color {
+  color: #66d1ff;
+}
+
+@media (max-width: 375px) {
+  .university-page-header-imageContainer {
+    width: 336px;
+    height: 285px;
+  }
+
+  .university-page-header-imageContainer img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .university-page-p {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .uni-logo {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    border-radius: 5px;
+    left: 20px;
+    top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .uni-logo img {
+    width: 56px;
+    height: 25px;
+    margin: 0;
+  }
+
+  .uni-info {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    flex-direction: column;
+    width: 315px;
+    height: 128px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .uni-info-content h2 {
+    font-size: 12px;
+    line-height: 15.2px;
+    margin-left: 0;
+  }
+
+  .uni-info-content-information-component img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .uni-info-content-information-component .upper {
+    font-size: 5.25px;
+    line-height: 6.26px;
+  }
+
+  .uni-info-content-information-component .lower {
+    font-size: 6.5px;
+    line-height: 8.4px;
+  }
+
+  .uni-info-content {
+    margin: 0;
+  }
+
+  .uni-address {
+    font-size: 8px;
+    line-height: 12px;
+    margin-left: 0;
+  }
+
+  .uni-info-buttons {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    padding: 0;
+    top: -70px;
+  }
+
+  .uni-info-buttons-btn {
+    width: 99px;
+    height: 25px;
+    font-size: 8.4px;
+    line-height: 12.6;
+  }
+
+  .uni-content-buttons-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .uni-content-buttons-flex button {
+    width: 99px;
+    height: 37px;
+    font-size: 9px;
+    line-height: 13.5px;
+    padding: 8px;
+  }
+
+  .university-content-article-paragraph-heading h2 {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .university-content-article-paragraph-content p {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .university-content {
+    padding: 15px;
+  }
+  .university-content-article {
+    padding: 8px;
+  }
+
+  .showMore {
+    font-size: 9px;
+    line-height: 13.5px;
+  }
+
+  .other-uni-heading {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .other-uni-flex {
+    flex-direction: column;
+  }
+
+  .other-uni-flex-items {
+    width: 230px;
+  }
+
+  .faculty-content-heading {
+    font-size: 9px;
+    line-height: 13.5px;
+  }
+
+  .faculty-content-subHeading {
+    font-size: 7.25px;
+    line-height: 10.88px;
+  }
+
+  .faculty img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .faculty {
+    padding: 10px;
+    height: 57px;
+    border-radius: 5px;
+  }
+
+  .docs-grid-1,
+  .docs-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+
+  .docs-grid-1 img,
+  .docs-grid-2 img {
+    width: 217px;
+    height: 145px;
+  }
+
+  .docs-grid-flex img {
+    display: flex;
+    flex-direction: column;
+    width: 104px;
+    height: 70px;
+  }
+
+  .docs-grid-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .docs-heading {
+    font-size: 11px;
+    line-height: 16.5px;
+  }
+
+  .alumni-flex-item img {
+    width: 101px;
+    height: 126px;
+  }
+
+  .alumni-flex-item h2 {
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+
+  .alumni-flex-item p {
+    font-size: 6px;
+    line-height: 7.8px;
+  }
+
+  .alumni-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .location img {
+    width: 280px;
+    height: 300px;
+    overflow: hidden;
+  }
+}

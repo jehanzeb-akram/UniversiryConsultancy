@@ -1,0 +1,36 @@
+.rightside{
+   
+}
+.topt{
+    display: flex;
+    margin-left: 280px;
+    margin-top: -635px;
+}
+.topt h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 37.5px;
+    color: #312259;
+}
+
+.bbtnn{
+    display: flex;
+    margin-left: 1000px;
+    gap: 10px;
+
+}
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #312259;
+    color: #faf7f7;
+    cursor: pointer;
+}
+
+.componentt{
+    display: flex;
+    margin-left: 280px;
+    margin-top: 20px;
+    gap: 20px;
+}

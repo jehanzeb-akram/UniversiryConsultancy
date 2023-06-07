@@ -1,0 +1,62 @@
+.university {
+  margin-top: 60px;
+}
+
+.noOf {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #787878;
+}
+
+.uni {
+  box-sizing: border-box;
+  width: 370px;
+  height: 128px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.uni-name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.uni-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  .noOf {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .uni-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .uni {
+    width: 158px;
+    height: 56px;
+    border-radius: 5px;
+  }
+
+  .uni-name {
+    font-size: 6.11px;
+    line-height: 9.16px;
+  }
+}

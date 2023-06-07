@@ -1,0 +1,519 @@
+.underline:after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  border: solid 5px #312259;
+  border-color: #312259 transparent transparent transparent;
+  border-radius: 80%;
+}
+.section {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 198px;
+  margin-bottom: 20px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  /* text-align: center; */
+}
+
+.content h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #312259;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sec1-btns button {
+  width: 200px;
+  height: 54px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0px 4px 50px rgba(49, 34, 89, 0.15);
+  border-radius: 20px;
+  position: relative;
+  border: none;
+  margin-left: 10px;
+}
+
+.apply-online-btn {
+  background-color: #312259;
+  color: white;
+  justify-content: left;
+  text-align: left;
+}
+
+.apply-online-btn img {
+  position: absolute;
+  top: 10px;
+  left: 141px;
+  justify-content: space-between;
+  text-align: end;
+}
+
+.discover-more-btn img {
+  position: absolute;
+  top: 10px;
+  left: 19.5px;
+}
+
+.section2 {
+  /* text-align: center; */
+}
+
+.section2 h1,
+.section2 h4 {
+  text-align: center;
+}
+.about-cards {
+  /* display: none; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-card {
+  height: 279px;
+  width: 300px;
+  background: #f5f5f5;
+  padding: 30px 40px;
+  border-radius: 30px;
+  gap: 15px;
+}
+
+.about-card h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about-card p {
+  font-size: 16px;
+}
+
+.learnMore {
+  color: #66d1ff;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.section3 div h3 {
+  color: #312259;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section3 div h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section3 div p {
+  font-size: 16px;
+  color: #787878;
+}
+
+.section3 div button {
+  width: 174px;
+  height: 44px;
+  background-color: #312259;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.section4 {
+  text-align: center;
+  background: #f5f5f5;
+  border-radius: 30px;
+}
+
+.section4 h3 {
+  color: #312259;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.section4 h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section4 p {
+  font-size: 16px;
+  color: #787878;
+}
+
+.flag-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flag-card {
+  background: white;
+  width: 150px;
+  height: 196px;
+  border-radius: 20px;
+  padding: 18px 30px;
+}
+
+.flag-card:hover {
+  cursor: pointer;
+  background: #312259;
+  color: white;
+}
+
+.applyOnlineBtn {
+  width: 174px;
+  height: 43.84px;
+  background: #312259;
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.section5 h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #312259;
+}
+
+.section5 .firstDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstDiv p {
+  font-size: 16px;
+  color: #787878;
+}
+
+.firstDiv h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.service-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.service-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.service-card h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 52px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #787878;
+}
+
+.service-card span {
+  color: #66d1ff;
+}
+
+.service-card .subText {
+  margin-bottom: 43px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.pricing h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.pricing button {
+  width: 148px;
+  height: 43px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background: #312259;
+  box-shadow: 0px 4px 10px rgba(20, 58, 162, 0.1);
+  border-radius: 20px;
+  border: none;
+}
+
+.section6 {
+  text-align: center;
+  background-color: #312259;
+  color: white;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.section6 h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section6 h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section6 p {
+  font-size: 16px;
+}
+
+.step-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.step-card h2 {
+  font-size: 16px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-subheading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #312259;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.underline {
+  position: relative;
+  margin-right: 2rem;
+}
+
+.success {
+  color: #312259;
+}
+.mediaimg img{
+  display: flex;
+}
+.mediaimg{
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+}
+.firstDiv{
+  flex-direction: column;
+  display: flex;
+}
+.firstDiv h1{
+  font-size: 20px;
+}
+.firstDiv p{
+  font-size: 13px;
+}
+.flagmobile{
+  display: flex;
+  gap: 40px;
+}
+.blogsection {
+  display: flex;
+}
+@media screen and (max-width: 375px) {
+
+  
+  .section {
+    margin-top: 140px;
+    margin-left: 20px;
+    text-align: center;
+  }
+ h1{
+  font-size: 14px;
+ }
+ p{
+  font-size: 12px;
+ }
+  .section2{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .about-cards{
+    width: 80%;
+    margin-right: 100px;
+  }
+  .section2 h1{
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+  }
+  
+  .apply-online-btn img {
+    left: 120px;
+  }
+  
+  .discover-more-btn img {
+    left: 10px;
+  }
+  
+  .about-cards {
+    flex-direction: column;
+  }
+  
+  .about-card {
+    margin-bottom: 30px;
+  }
+  
+  .section3 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .section3 div {
+    margin-bottom: 30px;
+  }
+  
+  .section4 h1 {
+    font-size: 20px;
+  }
+  .section4 p{
+    font-size: 13px;
+  }
+  .section6{
+    width: 75%;
+    margin-bottom: 10px;
+  }
+  .flag-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .flagmobile{
+    gap: 10px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .flagmobile img{
+    width: 55px;
+    height: 25px;
+    margin-right: 30px;
+  }
+  .flag-card{
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .flag-card h2{
+    font-size: small;
+    
+  }
+  
+  .service-cards {
+    
+    flex-direction: column;
+  }
+  
+  .service-card {
+    margin-bottom: 30px;
+  }
+  .content{
+    order: 1;
+   flex-direction:column ;
+    display: flex;
+    
+  }
+  .happy img{
+    height: auto;
+    width: 100%;
+  }
+  .image-left,.image-right{
+    display: none;
+    order: 2;
+
+  }
+  .mediaimg img{
+    height: auto;
+    width: auto;
+    display: flex;
+    
+  }
+ .mediaimg{
+  flex-direction: column;
+   display: flex;
+   justify-content: center;
+   
+ }
+
+
+  .sec1-btns{
+    order: 3;
+  }
+  .testimonials {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .testimonials::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .testimonial{
+    flex: 0 0 calc(100% / 2);
+    scroll-snap-align: start;
+    padding: 0 5px;
+  }
+}

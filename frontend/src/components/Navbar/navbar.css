@@ -1,0 +1,205 @@
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo {
+  color: #312259;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-link .link {
+  text-decoration: none;
+  color: #787878;
+}
+
+.nav-link .link:hover {
+  color: #312259;
+}
+
+.nav-link .link:active {
+  color: #312259;
+}
+
+Nav Button {
+  font-size: 14px;
+  margin-left: 20px;
+  height: 51px;
+  width: 173px;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 40px 15px 40px;
+}
+
+.applyOnline {
+  color: white;
+  background-color: #312259;
+  font-weight: 700;
+}
+
+.login {
+  color: #312259;
+  background-color: white;
+  border: 2px solid #312259;
+  font-weight: 700;
+}
+
+Button:hover {
+  cursor: pointer;
+}
+
+Nav p {
+  margin-left: 20px;
+}
+
+.login-div {
+  background-color: rgba(0, 0, 0, 0.5); /* 50% opacity black */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.login-container {
+  background-color: white;
+  height: 526px;
+  width: 1000px;
+   border-radius: 10px;
+  display: flex;
+}
+
+.leftimg{
+  width: 500px;
+  height: 500px;
+
+
+ 
+}
+
+.lf{
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.lf h1{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.5px;
+ }
+
+ .inpemail{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #312259;
+  padding-left: 20px;
+  fill: #9b9a9a;
+  cursor: pointer;
+ }
+
+  .fp{
+  margin-left: 280px;
+  margin-top: 3px;
+  color: #312259;
+}
+
+.lobtn{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 47px;
+  border-radius: 20px;
+  border: 1px solid #312259;
+  background-color: #312259;
+  color: white;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.closetag{
+  margin-left: 380px;
+  margin-top: -80px;
+}
+
+.scolor{
+  color: #312259;
+  font-weight: 9000px;
+  font-size: 16px;
+  cursor: pointer;
+  
+  
+}
+.inpemailsign{
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 20px;
+  fill: #9b9a9a;
+  gap: auto;
+  cursor: pointer;
+
+}
+.signbtn{
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  width: 420px;
+  height: 43px;
+  border-radius: 20px;
+  border: 1px solid #312259;
+  background-color: #312259;
+  color: white;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.lline{
+  margin-top: -5px;
+}
+.pline{
+  margin-top: -10px;
+}
+
+.center{
+  position: absolute;
+  top: 300px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  line-height: 75px;
+  color: white;
+  font-weight: 700;
+}
+
+.navlogo{
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 50px;
+  height: 50px;
+}
